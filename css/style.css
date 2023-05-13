@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+:root {
+    --white: #ffffff;
+    --body: #A0AECD; 
+    --body-dark: #000000;
+    --border-width: 1px;
+    --border-radius: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-white);
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #000000;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 150px;
+    padding: 170px
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #A0AECD;
+    position: absolute;
+}
+
+.navbar-brand {
+    padding-left: 18px;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    padding-left: 175px;
+}
+
+.navbar-item {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.social__links a {
+    width: 36px;
+    height: 36px;
+    background-color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: var(--body);
+    }
+}
+#hero {
+    background: url("../assets/RemixIcon_Fonts_v3.2.0/fonts/img/background.JPG");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    width: 100%;
+    background-color: var(--body-dark);
+    
+}
+
+#hero h1,
+#hero p {
+    color: var(--white);
+}
+
+.aboutme {
+    background-color: #A0AECD;
+}
+
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro .hr-line {
+    width: 60px;
+    height: 4px;
+    background-color: #000000;
+}
+
+.btn {
+    padding: 20px 44px;
+    border-width: 2px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
