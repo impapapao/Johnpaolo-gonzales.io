@@ -83,8 +83,15 @@ section {
 @media (max-width: 992px) {
     .navbar {
         background-color: var(--body);
+        width: 100%;
     }
 }
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 50%;
+    }
+}
+
 #hero {
     background: url("../assets/RemixIcon_Fonts_v3.2.0/fonts/img/background.JPG");
     min-height: 100vh;
